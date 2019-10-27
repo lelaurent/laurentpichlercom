@@ -12,9 +12,7 @@ main =
     Elmstatic.layout Elmstatic.decodePostList viewPostList
 
 
-viewPostList :
-    Elmstatic.PostList
-    -> Result String (List (Html Never))
+viewPostList : Elmstatic.PostList -> Result String (List (Html Never))
 viewPostList postList =
     Ok <|
         Page.layout postList.title <|
