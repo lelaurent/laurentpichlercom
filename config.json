@@ -4,7 +4,7 @@
     "copy": {
         "/posts": "/"
     },
-    "elm": "/Users/robingruenke/Downloads/elm",
+    "elm": "node_modules/.bin/elm",
     "feed": {
         "type": "rss",
         "title": "Author's fancy blog",
