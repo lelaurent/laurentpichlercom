@@ -5,8 +5,8 @@
   "scripts": {
     "build-css": "postcss assets/styles.css -o _site/styles.css",
     "watch-css": "postcss assets/styles.css -o _site/styles.css --watch",
-    "build": "elmstatic build && npm run build-css",
-    "start": ""
+    "build": "elmstatic build && pnpm run build-css",
+    "start": "pnpm run watch-css & elmstatic watch & live-server _site --no-css-inject --wait=300"
   },
   "repository": {
     "type": "git",

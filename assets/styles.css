@@ -2,10 +2,7 @@
 @tailwind base;
 @tailwind components;
 
-/*Custom css goes here*/
-body {
-    @apply bg-gray-900;
-}
+/* custom css goes here */
 
 /* @note utilities need to remain last, so that it is possible to stack utility classes. */
 @tailwind utilities;
