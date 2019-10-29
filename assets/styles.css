@@ -1,0 +1,11 @@
+/* @note this is a postcss processed file, so not a regular css file, all standard css should apply though. */
+@tailwind base;
+@tailwind components;
+
+/*Custom css goes here*/
+body {
+    @apply bg-gray-900;
+}
+
+/* @note utilities need to remain last, so that it is possible to stack utility classes. */
+@tailwind utilities;
