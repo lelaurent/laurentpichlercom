@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-    @apply text-4xl;
+    @apply text-4xl py-3;
 }
 
 h2 {
-    @apply text-3xl;
+    @apply text-3xl py-3;
 }
 h3 {
     @apply text-2xl;
@@ -30,8 +30,16 @@ h6 {
 
 .hero {
     @apply border-t border-b border-solid border-gray-800;
-    background: rgb(101,121,155);
+    background: #5B247A;
     background: linear-gradient(18deg, #1BCEDF 0%, #5B247A 100%);
+}
+
+.content {
+    @apply m-auto py-4 px-4 max-w-4xl;
+}
+
+.content .post-item {
+    @apply flex my-8 shadow rounded overflow-hidden;
 }
 
 /* @note utilities need to remain last, so that it is possible to stack utility classes. */

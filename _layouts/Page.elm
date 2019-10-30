@@ -52,7 +52,7 @@ markdown s =
 
 header : List (Html Never)
 header =
-    [ div [ class "bg-gray-500" ]
+    [ div []
         [ ul [ class "" ]
             [ li []
                 [ a [ href "/posts" ]
