@@ -14,7 +14,7 @@
 	}
 ```
 - _optional_: install postcss language support extension for vscode when working with css files. This is because this repository works with postcss syntax, which is not supported out of the box by vscode
-- _optional_: install tailwind CSS IntelliSense for autocompleting Tailwinds css classes [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- _optional_: install tailwind CSS IntelliSense for autocompleting Tailwinds css classes [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss). Only works in .html and .css classes for now. I opened a github issue: [vscode-tailwindcss support for elm files](https://github.com/bradlc/vscode-tailwindcss/issues/84)
 - _optional_: install tailwind docs for quick access to the docs [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
 - _optional_: install elmstatic globally if you want to generate boilerplate or use the cli directly `pnpm i -g elmstatic@latest`
 - _optional_: install postcss-cli globally if you want to use the cli directly `pnpm i -g postcss-cli`
@@ -26,7 +26,7 @@
 ## How to build for production
 - pnpm run build
 - release folder will be generated: `_site`
-- deploy: @todo Consider githubpages, netlify
+- deploy: @todo Consider ~~githubpages~~ (elmstatic does for us what githubpages does, except the 'go-live') , netlify
 
 ## Install packages
 - [elm] How to install elm packages:
