@@ -29,8 +29,9 @@ h6 {
 
 
 .hero {
+    @apply border-t border-b border-solid border-gray-800;
     background: rgb(101,121,155);
-    background: linear-gradient(18deg, rgba(101,121,155,1) 0%, rgba(94,37,99,1) 100%);
+    background: linear-gradient(18deg, #1BCEDF 0%, #5B247A 100%);
 }
 
 /* @note utilities need to remain last, so that it is possible to stack utility classes. */
