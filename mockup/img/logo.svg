@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="677px" height="481px" viewBox="0 0 677 481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M391.949263,34.9335342 C391.949263,34.9335342 328.978348,144.173343 203.036517,362.652961 C190.972942,383.580444 164.254959,390.750729 143.360233,378.668241 L332.272979,50.9488139 C344.336554,30.0213316 371.054537,22.8510466 391.949263,34.9335342 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy-2" transform="translate(-97.000000, -48.000000)">
+            <g id="Group" transform="translate(0.000000, 1.000000)">
+                <text id="Laurent-Pichler" font-family="HiraginoSans-W0, Hiragino Sans" font-size="85" font-weight="200" fill="#F7FAFC">
+                    <tspan x="131.915" y="474">Laurent Pichler</tspan>
+                </text>
+                <text id="Consulting-&amp;-Develop" font-family="HiraginoSans-W0, Hiragino Sans" font-size="36" font-weight="200" fill="#CBD5E0">
+                    <tspan x="196.968" y="524.910227">Consulting &amp; Development</tspan>
+                </text>
+                <g id="Rectangle" transform="translate(267.654748, 206.800888) rotate(17.365340) translate(-267.654748, -206.800888) ">
+                    <path stroke="#5A67D8" stroke-width="12" d="M386.389665,36.5687285 C368.032481,28.2693963 346.024058,35.1033148 335.738435,52.9464647 L148.919831,377.033047 C167.277015,385.332379 189.285438,378.498461 199.571061,360.655311 L385.532045,38.0564994 C385.859088,37.4891562 386.142649,36.9972441 386.389665,36.5687285 Z"></path>
+                </g>
+                <ellipse id="Combined-Shape" stroke="#5A67D8" stroke-width="12" cx="614.284811" cy="207.135177" rx="152.715189" ry="152.954597"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

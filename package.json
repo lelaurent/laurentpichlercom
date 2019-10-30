@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "mockup": "postcss assets/styles.css -o mockup/styles.css --watch & live-server mockup --no-css-inject",
     "build-css": "postcss assets/styles.css -o _site/styles.css",
     "watch-css": "postcss assets/styles.css -o _site/styles.css --watch",
     "build": "elmstatic build && pnpm run build-css",

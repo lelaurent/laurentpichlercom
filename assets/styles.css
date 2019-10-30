@@ -3,6 +3,35 @@
 @tailwind components;
 
 /* custom css goes here */
+body {
+    @apply bg-gray-100 text-blue-900;
+}
+
+h1 {
+    @apply text-4xl;
+}
+
+h2 {
+    @apply text-3xl;
+}
+h3 {
+    @apply text-2xl;
+}
+h4 {
+    @apply text-xl;
+}
+h5 {
+    @apply text-lg;
+}
+h6 {
+    @apply text-base;
+}
+
+
+.hero {
+    background: rgb(101,121,155);
+    background: linear-gradient(18deg, rgba(101,121,155,1) 0%, rgba(94,37,99,1) 100%);
+}
 
 /* @note utilities need to remain last, so that it is possible to stack utility classes. */
 @tailwind utilities;
