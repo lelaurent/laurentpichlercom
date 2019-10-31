@@ -6,8 +6,9 @@
 - enjoy !
 
 ## Advanced setup
-- [important] install this vscode extension for elm: [elm-ls-vscode](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode) (the one supported by the elm community), the other elm extensions seems to loose support. If you have any other elm language support Extension, you should uninstall it because they interfere.
-- [important] create a vscode workspace and set the following in the *.code-workspace file:
+- **important** install elm-format `pnpm i -g elm-format`
+- **important** install this vscode extension for elm: [elm-ls-vscode](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode) (the one supported by the elm community), the other elm extensions seems to loose support. If you have any other elm language support Extension, you should uninstall it because they interfere.
+- **important** create a vscode workspace and set the following in the *.code-workspace file:
 ```
 "settings": {
 		"elm.compiler": "node_modules/.bin/elm",
