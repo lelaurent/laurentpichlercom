@@ -43,3 +43,5 @@
 
 ## Backlog
 [ ] Create a landingpage for the beginning
+[ ] Create a deployment routine
+[ ] Add critical css into the build-for-production process https://github.com/addyosmani/critical
