@@ -14,10 +14,7 @@ main =
 
 viewPostList : Elmstatic.PostList -> Result String (List (Html Never))
 viewPostList postList =
-    Ok <|
-        Page.layout postList.title <|
-            viewPostListContent <|
-                sortPosts postList.posts
+    Ok <| Page.view postList.title (viewPostListContent <| sortPosts postList.posts) []
 
 
 viewPostListContent : List Elmstatic.Post -> List (Html Never)
@@ -33,7 +30,7 @@ viewPostItem : Elmstatic.Post -> Html Never
 viewPostItem post =
     div []
         [ a [ href ("/" ++ post.link) ] [ h2 [] [ text post.title ] ]
-        , Post.metadataHtml post
+        , Post.viewPostMetaData post
         ]
 
 
