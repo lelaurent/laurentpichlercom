@@ -42,6 +42,6 @@
 - @todo describe how to extend the current elm application 'build-flow' and create custom pages
 
 ## Backlog
-[ ] Create a landingpage for the beginning
-[ ] Create a deployment routine
-[ ] Add critical css into the build-for-production process https://github.com/addyosmani/critical
+- [ ] Create a landingpage for the beginning
+- [ ] Create a deployment routine
+- [ ] Add critical css into the build-for-production process https://github.com/addyosmani/critical
