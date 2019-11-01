@@ -70,7 +70,7 @@ viewHeader children =
         [ div
             [ class "content" ]
             (nav
-                [ class "text-center text-gray-400 px-8 py-4 text-xl" ]
+                [ class "text-center text-gray-400 text-xl" ]
                 [ ul
                     [ class "flex" ]
                     (viewHeaderNavLogoItem :: List.map viewHeaderNavItem navItems)
@@ -83,15 +83,15 @@ viewHeader children =
 viewHeaderNavLogoItem : Html Never
 viewHeaderNavLogoItem =
     li
-        []
+        [ class "inline-block w-1/4 " ]
         [ a [ href "/" ]
-            [ img [ src "/img/logo-small.svg", alt "logo", class "w-12 md:w-16" ] [] ]
+            [ img [ src "/img/logo-small.svg", alt "logo", class "w-12 md:w-16 h-full" ] [] ]
         ]
 
 
 viewHeaderNavItem : NavItem -> Html Never
 viewHeaderNavItem navItem =
-    li [ class "inline-block w-1/3" ]
+    li [ class "inline-block w-1/4" ]
         [ a
             [ href navItem.href ]
             [ text navItem.name ]

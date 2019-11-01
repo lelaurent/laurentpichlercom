@@ -28,9 +28,14 @@ viewPostListContent posts =
 
 viewPostItem : Elmstatic.Post -> Html Never
 viewPostItem post =
-    div []
-        [ a [ href ("/" ++ post.link) ] [ h2 [] [ text post.title ] ]
-        , Post.viewPostMetaData post
+    div [ class "post-item" ]
+        [ div
+            [ class "w-1/4" ]
+            [ img [ src "/img/post-default.jpg", class "w-full h-full object-cover object-center", alt post.title ] []
+            ]
+        , div
+            [ class "w-3/4 ml-6 pr-10 py-5" ]
+            (Post.viewPostMetaData post)
         ]
 
 

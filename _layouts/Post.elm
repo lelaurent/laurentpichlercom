@@ -13,7 +13,7 @@ main =
             Ok <|
                 Page.view
                     content.title
-                    [ viewPostMetaData content, Page.viewMarkdown content.content ]
+                    (viewPostMetaData content ++ [ Page.viewMarkdown content.content ])
                     []
 
 
@@ -24,16 +24,17 @@ viewTags tags =
             "/tags/" ++ String.toLower tag
 
         linkify tag =
-            a [ href <| tagLink tag ] [ text tag ]
+            a [ href <| tagLink tag, class "ml-2" ] [ text tag ]
     in
     List.map linkify tags
 
 
-viewPostMetaData : Elmstatic.Post -> Html Never
+viewPostMetaData : Elmstatic.Post -> List (Html Never)
 viewPostMetaData post =
-    div [ class "post-metadata" ]
-        ([ span [] [ text post.date ]
-         , span [] [ text "•" ]
-         ]
-            ++ viewTags post.tags
-        )
+    [ div
+        [ class "text-gray-500 text-xs" ]
+        (span [] [ text post.date ] :: viewTags post.tags)
+    , a
+        [ href <| "/" ++ post.link ]
+        [ h3 [] [ text post.title ] ]
+    ]
