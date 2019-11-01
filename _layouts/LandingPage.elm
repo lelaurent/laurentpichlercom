@@ -1,4 +1,4 @@
-module HomePage exposing (main)
+module LandingPage exposing (main)
 
 import Elmstatic
 import Html exposing (Html, div, img, p, text)
@@ -7,7 +7,7 @@ import Json.Decode as Decode
 import Page
 
 
-type alias HomePage =
+type alias LandingPage =
     { content : String
     , siteTitle : String
     , title : String
@@ -15,9 +15,9 @@ type alias HomePage =
     }
 
 
-decodeHomePage : Decode.Decoder HomePage
+decodeHomePage : Decode.Decoder LandingPage
 decodeHomePage =
-    Decode.map4 HomePage
+    Decode.map4 LandingPage
         Elmstatic.decodeContent
         (Decode.field "siteTitle" Decode.string)
         (Decode.field "title" Decode.string)
