@@ -2,3 +2,5 @@ _site/
 elm.js
 node_modules/
 elm-stuff/
+.DS_Store
+mockup/styles.css

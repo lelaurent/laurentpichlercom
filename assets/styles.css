@@ -1,0 +1,46 @@
+/* @note this is a postcss processed file, so not a regular css file, all standard css should apply though. */
+@tailwind base;
+@tailwind components;
+
+/* custom css goes here */
+body {
+    @apply bg-gray-100 text-blue-900;
+}
+
+h1 {
+    @apply text-4xl py-3;
+}
+
+h2 {
+    @apply text-3xl py-3;
+}
+h3 {
+    @apply text-2xl;
+}
+h4 {
+    @apply text-xl;
+}
+h5 {
+    @apply text-lg;
+}
+h6 {
+    @apply text-base;
+}
+
+
+.hero {
+    @apply border-t border-b border-solid border-gray-800;
+    background: #5B247A;
+    background: linear-gradient(18deg, #1BCEDF 0%, #5B247A 100%);
+}
+
+.content {
+    @apply m-auto py-4 px-4 max-w-4xl;
+}
+
+.content .post-item {
+    @apply flex my-8 shadow rounded overflow-hidden;
+}
+
+/* @note utilities need to remain last, so that it is possible to stack utility classes. */
+@tailwind utilities;

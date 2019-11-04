@@ -4,7 +4,6 @@ import Elmstatic exposing (..)
 import Html exposing (..)
 import Html.Attributes as Attr exposing (alt, attribute, class, href, src)
 import Markdown
-import Styles
 
 
 githubIcon : Html Never
@@ -53,12 +52,8 @@ markdown s =
 
 header : List (Html Never)
 header =
-    [ div [ class "header-logo" ]
-        [ img [ alt "Author's blog", src "/img/logo.png", attribute "width" "100" ]
-            []
-        ]
-    , div [ class "navigation" ]
-        [ ul []
+    [ div []
+        [ ul [ class "" ]
             [ li []
                 [ a [ href "/posts" ]
                     [ text "Posts" ]
@@ -114,7 +109,6 @@ layout title contentItems =
                 ([ h1 [] [ text title ] ] ++ contentItems)
            , footer
            , Elmstatic.stylesheet "/styles.css"
-           , Styles.styles
            ]
 
 

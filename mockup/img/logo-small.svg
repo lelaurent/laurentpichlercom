@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="677px" height="324px" viewBox="0 0 677 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M296.949263,34.9335342 C296.949263,34.9335342 233.978348,144.173343 108.036517,362.652961 C95.9729417,383.580444 69.2549589,390.750729 48.3602327,378.668241 L237.272979,50.9488139 C249.336554,30.0213316 276.054537,22.8510466 296.949263,34.9335342 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy-3" transform="translate(-97.000000, -94.000000)">
+            <g id="Group" transform="translate(97.000000, 48.000000)">
+                <g id="Rectangle" transform="translate(172.654748, 206.800888) rotate(17.365340) translate(-172.654748, -206.800888) ">
+                    <use fill="#F7FAFC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#F7FAFC" stroke-width="8" d="M291.389665,36.5687285 C273.032481,28.2693963 251.024058,35.1033148 240.738435,52.9464647 L53.9198307,377.033047 C72.277015,385.332379 94.2854377,378.498461 104.571061,360.655311 L290.532045,38.0564994 C290.859088,37.4891562 291.142649,36.9972441 291.389665,36.5687285 Z"></path>
+                </g>
+                <ellipse id="Combined-Shape" stroke="#F7FAFC" stroke-width="8" fill="#F7FAFC" cx="519.284811" cy="207.135177" rx="152.715189" ry="152.954597"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
