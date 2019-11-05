@@ -27,11 +27,19 @@ h6 {
     @apply text-base;
 }
 
+a:hover{
+    @apply text-indigo-300;
+}
 
 .hero {
     @apply border-t border-b border-solid border-gray-800;
     background: #5B247A;
     background: linear-gradient(18deg, #1BCEDF 0%, #5B247A 100%);
+}
+
+.hero-minimal {
+    background: rgb(58,124,174);
+    background: linear-gradient(18deg, rgba(58,124,174,1) 0%, rgba(91,36,122,1) 100%);
 }
 
 .content {
@@ -40,6 +48,15 @@ h6 {
 
 .content .post-item {
     @apply flex my-8 shadow rounded overflow-hidden;
+}
+
+.content .text-block {
+    @apply mt-8;
+}
+@screen md {
+    .content .text-block {
+        @apply px-8 px-8;
+    }
 }
 
 /* @note utilities need to remain last, so that it is possible to stack utility classes. */

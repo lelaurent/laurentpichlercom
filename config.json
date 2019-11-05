@@ -1,9 +1,6 @@
 {
-    "siteTitle": "Author's fancy blog",
+    "siteTitle": "laurentpichler.com",
     "outputDir": "_site",
-    "copy": {
-        "/posts": "/"
-    },
     "elm": "node_modules/.bin/elm",
     "feed": {
         "type": "rss",
